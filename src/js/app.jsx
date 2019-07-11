@@ -1,4 +1,7 @@
 import React from 'react';
+import IncomeEntries from './components/IncomeEntries';
+import ExpenseEntries from './components/ExpenseEntries';
+import Summary from './components/Summary';
 
 export default class App extends React.Component {
   render() {
@@ -47,7 +50,7 @@ export default class App extends React.Component {
                     <tbody>
                       <tr>
                         <td>Rent</td>
-                        <td>$$4,000.00</td>
+                        <td>$4,000.00</td>
                       </tr>
                     </tbody>
                   </table>
