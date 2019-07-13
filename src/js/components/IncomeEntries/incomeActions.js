@@ -9,7 +9,7 @@ export function updateIncomeDescription(description) {
 export function updateIncomeAmount(amount) {
     return {
         type: 'UPDATE_INCOME_AMOUNT',
-        payload: { description }
+        payload: { amount }
     };
 }
 
