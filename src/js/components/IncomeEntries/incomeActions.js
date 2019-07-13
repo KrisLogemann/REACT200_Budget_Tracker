@@ -2,7 +2,7 @@
 export function updateIncomeDescription(description) {
     return {
         type: 'UPDATE_INCOME_DESCRIPTION',
-        payload: { description };
+        payload: { description }
     };
 }
 
